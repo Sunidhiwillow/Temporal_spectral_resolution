@@ -32,7 +32,7 @@ This approach allows better visualization and partial tracking across sounds wit
 
 ## Sounds Used
 
-It has been tested on two contrasting audio samples:
+It was tested on two contrasting audio samples:
 
 1. **Harmony of Peace – Angel Voices** (~88.8 sec)  
    - **Spectral Characteristics:** Clear melodic content with stable harmonic bands (visible horizontal lines).  
@@ -46,7 +46,7 @@ It has been tested on two contrasting audio samples:
 
 ## Observations
 
-I also tested the **Constant-Q Transform (CQT)** on these signals.  
+also the **Constant-Q Transform (CQT)** was tested on these signals.  
 ➡️ **CQT performed poorly on the percussive sound (MD1TRK22)** — it smeared transients in time.  
 ➡️ In contrast, **multi-window STFT approach handled both tonal and percussive sounds reasonably well**, maintaining clarity in both sustained harmonics and sharp transients.
 
